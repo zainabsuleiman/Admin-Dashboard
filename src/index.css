@@ -1,0 +1,16 @@
+
+
+body{
+
+  background-color: rgb(234, 238, 250);
+}
+
+#index_main{
+  margin: 10px 0px 0px 16px;
+  width: 1330px;
+  height: 710px;
+  background-color: rgb(254, 255, 254);
+  border: 2px solid rgb(254, 255, 254);
+  border-radius: 10px;
+  
+}

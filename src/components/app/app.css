@@ -1,0 +1,65 @@
+#app_main{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#app_left_side{
+    width: 20%;
+}
+#app_right_side{
+    width: 77%;
+}
+#app_header{
+    width: 100%;
+    height: 14%;
+}
+#app_card_header{
+    width: 26%;
+    height: 12%;
+    margin-top: 3%;
+}
+#just_icons{
+    display: inline-block;
+    position: relative;
+    left: 960px;
+    bottom: 80px;
+    
+}
+#card{
+    width: 100%;
+    overflow: hidden;
+    height: 25%;
+    margin-left: 3%;
+}
+#card:hover{
+    overflow: scroll;
+}
+#card::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(119, 85, 85, 0.3);
+background-color: rgb(245, 248, 248);
+height: 0px;
+}
+#card::-webkit-scrollbar
+{
+    margin-top: 10px;
+    width: 0px;
+    height: 10px;
+    background-color: #e6cccc;
+}
+#card::-webkit-scrollbar-thumb
+{
+background-color: rgba(193, 197, 204, 0.692);
+}
+
+#app_graph {
+    height: 300px;
+    width: 100%;
+}
+#app_graph img{
+    width: 100%;
+    height: 100%;
+}
